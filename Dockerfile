@@ -1,7 +1,9 @@
-FROM node:10
+FROM node:12
 
-COPY code/ app/
+COPY . app/
 
-RUN node app/app.js
+RUN npm install
+
+RUN node app/code/app.ts
 
 EXPOSE 3000
