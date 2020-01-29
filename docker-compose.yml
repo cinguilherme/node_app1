@@ -1,0 +1,9 @@
+version: "3.1"
+services: 
+    node_app1:
+        image: node_app1:latest
+        ports: 
+            - 3005:3000
+        command: node /app/app.js
+        volumes: 
+            - ./:/app/

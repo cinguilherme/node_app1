@@ -1,0 +1,11 @@
+{
+  "name": "node_app1",
+  "version": "1.0.0",
+  "description": "node app1 is a starter kit for multi purpose based app",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Cintra, Guilherme",
+  "license": "MIT"
+}
